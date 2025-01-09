@@ -2,3 +2,30 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: rgb(39, 38, 38);
+  margin: 10px;
+}
+
+h2 {
+  width: 50%;
+  border: 2px solid darkgrey;
+  /* rgb value for the publix logo */
+  background-color: rgb(95, 143, 56);
+  /* rgb value for the target logo */
+  color: rgb(204, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.foods {
+  border: 2px solid darkgrey;
+  background-color: rgb(95, 143, 56);
+  color: rgb(204, 0, 0);
+  padding: 10px;
+  margin-right: 10px;
+}
